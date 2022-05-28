@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:  5px 7px;
+   
+}
+ul li{
+    display: inline-block;
+    margin-right: 125px;
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul li:hover{
+    background-color: rgb(15, 15, 15);
+   
+}
+.navbar ul li a:hover{
+    color: white;
+}
+
+section{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+section input{
+   text-align: center;
+   border-radius: 12px;
+
+}
+.form{
+    margin: 15px 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+body::before {
+    background-image: url(image/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+}
+section h1{
+    font-size: 2rem;
+    margin: 12px 12px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+input[type=submit]{
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 3px;
+}
+input[type=submit]:hover{
+    background-color: rgb(87, 84, 84);
+    color: black;
+}
+.terms{
+    margin: 15px 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+}
+.terms a{
+    color: blue;
+}
+.form img:hover{
+   transform: translate(0px , 15px);
+}
+
+
